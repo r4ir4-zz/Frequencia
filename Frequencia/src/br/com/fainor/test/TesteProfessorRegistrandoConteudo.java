@@ -12,24 +12,24 @@ import br.com.fainor.model.Turno;
 public class TesteProfessorRegistrandoConteudo {
 
 	public static void main(String[] args) {
-		Professor takya = new Professor();//***********************************
+		Professor takya = new Professor();
 
 		takya.setNome("Carlos Takya");
 		takya.setCpf("027.923.352-28");
 		takya.setEmail("takya@fainor.com.br");
 		
-		Turma fisica1 = new Turma();//*****************************************
+		Turma fisica1 = new Turma();
 
 		fisica1.setDescricao("F1");
 		fisica1.setPeriodo("2016.2");
 		fisica1.setTurno(Turno.MATUTINO);
 
-		Sala labFisica = new Sala();//*****************************************
+		Sala labFisica = new Sala();
 		labFisica.setDescricao("Lab Exp.");
 		labFisica.setNumero("35");
 		labFisica.setTipoSala(TipoSala.PRATICA);
 
-		Aula aula1 = new Aula();//*********************************************
+		Aula aula1 = new Aula();
 		aula1.setProfessor(takya);
 		aula1.setTurma(fisica1);
 		aula1.setSala(labFisica);
