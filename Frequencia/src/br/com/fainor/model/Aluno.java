@@ -1,8 +1,6 @@
 package br.com.fainor.model;
 
-public class Aluno extends Pessoa { // heranca de classe Pessoa
-	//private Long id;
-	//private String nome;
+public class Aluno extends Pessoa {
 	private String ra;
 
 	
